@@ -14,6 +14,116 @@ p{margin:0;}
 cite {font-style:normal;}
 fieldset{border-width:0; padding:0; margin:0;}
 
+/****** GLOBAL *******/
+
+* {
+    max-width: 1440px;
+    font-family: Outfit;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+/****** CARD *******/
+
+.card {
+    margin: 100px auto;
+    padding: 20px;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%)
+}
+
+.text p {
+    margin-top: 15px;
+    font-weight: 300;
+    color: hsla(0, 0%, 100%, 0.507);
+}
+
+.eth {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.time {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.time p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+    color:hsla(0, 0%, 100%, 0.507);
+}
+
+.price {
+    display: flex;
+    justify-content: flex-start;
+}
+
+h2 {
+    color: hsl(178, 100%, 50%);
+}
+.price, .time {
+    width: 100%;
+    display: flex;
+    font-size: 15px;
+}
+
+.price img, .time img {
+    max-width: 100%;
+    max-height: 100%;
+    padding-right: 5px;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    margin-top: 25px;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+}
+
+.author {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.author img {
+    max-width: 15%;
+    border-radius: 100px;
+    border: 1px solid white
+}
+
+.author p {
+    padding-left: 10px;
+    color: hsla(0, 0%, 100%, 0.507);
+}
+
+span {
+    color: white;
+}
 /****** FOOTER *******/
 
 .attribution { font-size: 11px; text-align: center; }
